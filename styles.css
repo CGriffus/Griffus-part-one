@@ -1,0 +1,160 @@
+html {
+    background-color: #F0ECEE;
+    }
+
+body {
+    font-family: 'Fira sans', sans-serif;
+}
+/*---------------------Nav Bar Styling (mobile)---------------*/
+.header {
+    color: black;
+    padding: 10px 0 0 0;
+    font-weight: 600;
+}
+
+.header span {
+    color: red;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.links li a:link{
+    text-decoration: none;
+    color: #88898B;
+    font-weight: 400;
+}
+
+.links li a:hover {
+    background-color: #CCC;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+#contact a {
+    text-decoration: none;
+    background-color: #FF4850;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+
+/*----------------Find out Styling (mobile)---------------*/
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;        
+}
+
+.question {
+    color: black;
+    font-weight: 600;
+}
+
+.question span {
+    color: red;
+}
+
+.find-out {
+    display: flex;
+    flex-direction: column;
+}
+
+.find-out a {
+    text-decoration: none;
+    background-color: #FF4850;
+    color: white;
+    border-radius: 15px;
+    font-weight: 400;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    width: 100%;
+}
+
+.find-out p {
+    color: #88898B;
+    padding: 15px 0 15px 0;
+    font-weight: 300;
+}
+
+
+
+/*-----------------------------Desktop-------------------------*/
+@media screen and (min-width: 768px) {
+    html {
+        background: url(/images/bulldog.jpg) no-repeat fixed;
+        background-size: cover;
+        width: 100%;
+    }
+
+
+/*---------------------Nav Bar Styling (desktop)---------------*/
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .links li a:link {
+        padding: 10px;
+    }
+
+    #contact a {
+        display: inline;
+        padding: 10px;
+    }
+    
+    
+
+/*----------------Find out Styling (desktop)---------------*/
+    .container2 {
+        padding: 150px 0 0 0;
+        display: flex;       
+    }
+    
+    .question {
+        margin: 0;
+    }
+
+    .find-out a {
+        display: inline;
+        padding: 10px 35px;
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
