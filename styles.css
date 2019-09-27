@@ -22,10 +22,13 @@ li {
 a {
   color: #88898b;
   text-decoration: none;
+  padding: 15px;
 }
 
 a:hover {
   background: #ccc;
+  border-radius: 10px;
+  padding: 15px;
 }
 
 button {
@@ -56,4 +59,36 @@ span {
 #buddy {
   color: #88898b;
 }
-/* @media screen and (min-width: 768px); */
+
+@media screen and (min-width: 768px) {
+  body {
+    background: url(/assets/bulldog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    margin: 0 10px;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+  }
+
+  #find-out {
+    width: 45%;
+    margin: 100px 0 0 0;
+  }
+
+  button {
+    width: auto;
+  }
+}
