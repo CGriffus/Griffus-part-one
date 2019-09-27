@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   background: #f0ecee;
+  padding: 10px;
 }
 
 nav {
@@ -23,21 +24,36 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  background: #ccc;
+}
+
 button {
-  padding: 10px;
-  border-radius: 15px;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 10px;
   border: none;
   background: #ff4850;
   color: white;
   width: 100%;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #ccc;
 }
 
 span {
   color: #ff4850;
 }
 
-.question {
+#question {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+#buddy {
+  color: #88898b;
 }
 /* @media screen and (min-width: 768px); */
